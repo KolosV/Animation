@@ -1,0 +1,17 @@
+body{
+	height: 300px;
+	overflow: hidden;
+}
+div{
+	animation: anim 2s infinite alternate;
+}
+div{ 
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+}
+
+@keyframes anim{
+	from{margin-left: 0%;}
+	to{margin-left: 50%;}
+}

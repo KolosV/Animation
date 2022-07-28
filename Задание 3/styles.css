@@ -1,0 +1,12 @@
+div{
+	animation:anim 4s infinite;
+}
+div{ 
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+}
+@keyframes anim{
+	from{background: white}
+	to{background: red}
+}

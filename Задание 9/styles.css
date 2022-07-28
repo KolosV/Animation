@@ -1,0 +1,19 @@
+#wrapper{
+	margin: 0px auto;
+	width: 50%;
+	height: 30px;
+	border: 1px solid red;
+
+}
+#d0{
+	background: red;
+	width: 0%;
+	height: 30px;
+
+	animation: d0 16s linear infinite -8s;
+}
+
+@keyframes d0{
+	0%{width: 0%;}
+	100%{width: 100%;}
+}

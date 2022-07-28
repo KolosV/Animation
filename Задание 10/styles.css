@@ -1,0 +1,16 @@
+div{
+	animation: anim 2s ease infinite alternate;
+	animation-play-state: paused;
+}
+div:hover{
+	animation-play-state: running;
+}
+
+div{
+    height: 50px;
+    border: 1px solid red;
+}
+@keyframes anim{
+	from{width: 10%;}
+	to{width: 100%;}
+}

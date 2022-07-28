@@ -1,0 +1,22 @@
+#anim{
+	width: 50px;
+	animation: anim 2s ease alternate infinite;
+	animation-play-state: paused;
+}
+#d0:hover + #anim{
+	animation-play-state: running;
+}
+#d0{
+    padding: 10px;
+    border: 1px solid red;
+    margin-bottom: 30px;
+	width: 30%;
+}
+#anim{
+    height: 50px;
+    border: 1px solid blue;
+}
+@keyframes anim{
+	from{width: 10%;}
+	to{width: 100%;}
+}
